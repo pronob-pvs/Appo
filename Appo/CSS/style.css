@@ -1,0 +1,728 @@
+/* Google Font Dosis Import */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;700&display=swap');
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:  'Dosis', sans-serif;
+}
+/* === Header Part =============== */
+header{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    border-bottom: 1px solid rgb(99, 98, 98);
+    padding: 10px 0;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.logo-part{
+    width: 25%;
+    float: left;
+    margin-top: 7px;
+}
+/* .logo-part a{
+    color: #00fff0;
+} */
+.menu-part{
+    width: 45%;
+    float: left;
+    margin: 10px 0 0 0;
+}
+.menu-part ul{
+}
+.menu-part li{
+    float: left;
+    list-style: none;
+    display: inline-block;
+}
+.menu-part li a{
+    color: #fff;
+    font-size: 20px;
+    margin: 0 15px;
+    padding: 10px;
+}
+.menu-part li a:hover{
+    background-color: aqua;
+    color: black;
+}
+.btn-part{
+    width: 20%;
+    float: left;
+    text-align: end;
+    margin-left: 90px;
+}
+.btn-part a button{
+    padding: 10px 30px;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: 500px;
+    border-radius: 5px;
+}
+.btn-part i{
+    padding: 10px;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 7px;
+}
+/* === Hero Part================== */
+#hero{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+}
+.hero-writing-part{
+    width: 50%;
+    float: left;
+    height: 450px;
+
+}
+.heading{
+    margin: 120px 0 40px 20px;
+    width: 65%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+.hero-writing-part p{
+    color: rgb(184, 183, 183);
+    width: 84%;
+    margin: 0 0 50px 15px;
+
+}
+.hero-btn{
+    width: 85%;
+    margin-left: 20px;
+}
+.btn{
+    padding: 12px 30px;
+    background-color: aqua;
+    /* border: 2px solid aqua; */
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0 5px 5px rgb(175, 177, 177);
+}
+.btn-light{
+    padding: 10px 30px;
+    margin-left: 20px;
+    background-color: #223047;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-light:hover{
+    box-shadow: 0 0 5px 3px aqua;
+}
+.hero-img-part{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 120px;
+}
+.hero-img-part img{
+    height: 400px;
+    margin-bottom: -80px;
+}
+
+/* === Feature Part ======================= */
+#feature{
+    width: 70%;
+    float: left;
+    padding: 100px 0px;
+    text-align: center;
+    margin-left: 200px;
+}
+.feature-writing-part{
+    width: 100%;
+    float: left;
+}
+.feature-writing-part h1{
+    width: 32%;
+    margin: auto;
+    font-weight: 500;
+}
+.underline{
+    display: block;
+    border-bottom: 5px solid aqua;
+    width: 7%;
+    margin: 50px auto;
+    border-radius: 3px;
+}
+.feature-box-part{
+    width: 100%;
+    float: left;
+}
+.feature-box{
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+    border: none;
+    padding: 30px;
+    box-shadow: 0 2px 2px 2px #e2e2e2;
+}
+.feature-box img{
+    height: 90px;
+}
+.sub-heading{
+    font-size: 18px;
+    font-weight: 500;
+}
+.pg{
+    color: rgb(184, 183, 183);
+}
+/* === Get More Part======================= */
+#get-more{
+    width: 100%;
+    float: left;
+}
+.get-more-blank{
+    width: 45%;
+    float: left;
+    height: 300px;
+    background-color: #223047;
+}
+.get-more-writing-part{
+    width: 55%;
+    float: left;
+    height: 300px;
+    padding: 65px 0 0 70px;
+    background-color: #e0e0e0;
+}
+.get-more-writing-part h2{
+    margin-bottom: 20px;
+}
+.get-more-writing-part p{
+    /* margin-right: 170px; */
+    width: 75%;
+}
+ /* === Stable and Ready===================================  */
+#stable{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+.stable-writing-part{
+    width: 50%;
+    float: left;
+    text-align: end;
+    padding: 20px 70px 20px 0px;
+}
+.stable-writing-part h1{
+    font-weight: 500;
+    padding: 20px 0;
+}
+.stable-writing-part p{
+    padding: 0 0 40px 40px;
+}
+.code{
+    width: 25%;
+    float: left;
+}
+.code img{
+    height: 340px;
+}
+
+#screen-part{
+    width: 100%;
+    float: left;
+    /* margin: 50px 0px 0px 50px; */
+    padding-top: 20px;
+}
+.screen{
+    width: 50%;
+    float: left;
+    text-align: end;
+    padding-top: 20px;
+}
+.screen img{
+    height: 500px;
+    position: relative;
+    margin: 0px 70px -80px 0;
+}
+.option{
+    width: 50%;
+    float: left;
+    /* height: 450px; */
+}
+.option ul{
+    list-style: none;
+}
+.option li{
+    width: 75%;
+    float: left;
+    padding: 20px 0px;
+    margin: 10px 0;
+    border: none;
+    box-shadow: 0 2px 2px 2px rgb(233, 229, 229);
+}
+.option li:hover{
+    cursor: pointer;
+    background-color: aqua;
+    box-shadow: 0 2px 2px 2px aqua;
+}
+.option li img{
+    float: left;
+    margin: 0 25px;
+}
+.option li h3{
+    float: left;
+    width: 80%;
+}
+.option li p{
+    float: left;
+    width: 50%;
+}
+.tag-icon{
+    padding: 0 7px;
+}
+
+ /* === Everything you need ===================================  */
+#everything{
+    width: 100%;
+    float: left;
+    background-color: rgb(235, 235, 235);
+}
+.container{
+    width: 90%;
+}
+.everything-writing-part{
+    width: 50%;
+    float: left;
+    text-align: end;
+    padding: 50px 70px;
+}
+.everything-writing-part h1{
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.everything-writing-part form{
+    margin-top: 30px;
+    text-align: center;
+}
+.everything-writing-part input{
+    color: black;
+}
+.everything-writing-part p{
+    width: 70%;
+    float: right;
+    margin-top: 50px;
+}
+.box-part{
+    width: 50%;
+    float: left;
+    /* height: 300px; */
+    padding-top: 30px;
+    margin: 0 auto -80px;
+    text-align: center;
+}
+.left-box{
+    float: left;
+    height: 300px;
+    margin: 100px -10px 0px 0px;
+}
+.mid-box{
+    float: left;
+    height: 350px;
+    margin: 47px -27px 0px -20px;
+}
+.right-box{
+    float: left;
+    height: 280px;
+    margin: 120px 0px 0px 0px;
+}
+/* === Watch video part ================= */
+#watch-video{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #223047;
+    color: #fff;
+}
+.watch-writing-part{
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+}
+.watch-writing-part button{
+    background-color: #223047;
+    padding: 20px;
+    cursor: pointer;
+}
+.watch-writing-part button:hover{
+    box-shadow: 0px 0px 5px 3px aqua;
+}
+.watch-writing-part h4{
+    font-weight: 500;
+    padding: 20px;
+}
+.watch-writing-part p{
+    padding: 30px;
+}
+/* === Join part ============== */
+#join-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.join{
+    background-image: url(img/map.png);
+    width: 70%;
+    margin: auto;
+    padding: 70px;
+}
+.join h3{
+    padding: 20px;
+}
+.join p{
+    padding: 0px 0 20px 0;
+}
+/* === Paragraph Part ======================= */
+#paragraph{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: #223047;
+    color: #fff;
+}
+.para{
+    width: 60%;
+    margin: auto;
+}
+.para p{
+    padding: 80px;
+}
+/* === Available Now Part ======================= */
+#available-part{
+    width: 100%;
+    float: left;
+    background-color: #e0e0e0;
+}
+.available-smartphone{
+    width: 80%;
+    margin: auto;
+}
+.smartphone{
+    width: 50%;
+    float: left;
+}
+.left-smartphone{
+    margin: 0 -60px 0 0;
+}
+.right-smartphone{
+    margin: 0 0 0 -20px;
+}
+.available-writing-part{
+    width: 50%;
+    float: left;
+}
+.writing{
+    width: 70%;
+    float: left;
+    margin: 150px 0 0 20px;
+}
+.available-writing-part h2{
+    padding: 20px 0px;
+}
+.available-writing-part p{
+    padding: 10px 0px;
+}
+
+.available-writing-part button{
+    float: left;
+    margin: 20px 10px 10px 0;
+    cursor: pointer;
+}
+.get-app{
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-bottom: -20px;
+} 
+.get-app button{
+    border-radius: 0px;
+    cursor: pointer;
+}
+/* === Listing Part ======================== */
+#listing-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.list-and-search{
+    width: 80%;
+    /* float: left; */
+    margin: auto;
+    /* text-align: center; */
+}
+.list{
+    width: 100%;
+    float: left;
+    margin: 50px auto;
+}
+.listing{
+    width: 14.4%;
+    float: left;
+    margin: 30px 2.8%;
+}
+.list h4{
+
+}
+.list ul{
+
+}
+.list li{
+    list-style: none;
+
+}
+
+.search{
+    width: 100%;
+    float: left;
+    margin: 30px auto;
+}
+.search h2{
+    margin: 10px;
+}
+.search p{
+    margin: 10px;
+}
+.search form{
+    width: 100%;
+    float: left;
+    margin: 30px auto;
+}
+.search input{
+    width: 50%;
+    background-color: #d6d6d6;
+    padding: 12px;
+    margin: 10px;
+}
+.search button{
+    border-radius: 0px;
+    cursor: pointer;
+}
+/* === Footer Part ===================== */
+#footer{
+    width: 100%;
+    float: left;
+    background-color: #223047;
+    height: 50px;
+    text-align: center;
+}
+.footer-left{
+    width: 50%;
+    float: left;
+    color: aqua;
+    padding: 10px;
+}
+.footer-right{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.footer-right a{
+    margin: 20px 10px 0px 10px;
+}
+.footer-right img{
+    height: 15px;
+    margin: 10px 0 0 0;
+}
+
+
+/* ======== Mobile Device ====== */
+@media (max-width: 600px) {
+    /* Header Part */
+    .container{
+        width: 90%;
+    }
+    .logo-part{
+        width: 30%;
+        margin-left: 20px;
+    }
+    .menu-part{
+        width: 60%;
+    }
+    .btn-part{
+        display: none;
+    }
+
+    /* Hero Part */
+    .heading{
+        margin: 20px 0 20px 20px;
+        font-size: 18px;
+    }
+    .btn{
+        padding: 10px 25px;
+        margin: 10px;
+    }
+
+    /* Feature Part */
+    #feature{
+        width: 90%;
+        padding: 90px 0px;
+        margin-left: 30px ;
+    }
+    .feature-writing-part h1{
+        width: 60%;
+    }
+    .feature-box img{
+        height: 50px;
+    }
+
+
+    /* Get More Part */
+    .get-more-blank{
+        height: 380px;
+    }
+    .get-more-writing-part{
+        height: 380px;
+        padding: 10px 0px 10px 30px;
+    }
+    .get-more-writing-part h1{
+        font-weight: 500;
+        margin-bottom: 10px;
+    }    
+
+
+    /* Stable and Ready */
+    .stable-writing-part{
+        width: 100%;
+        text-align: center;
+        /* margin: auto; */
+        padding: 0px 10px;
+    }
+    .code{
+        width: 100%;
+    }
+
+    .screen{
+        width: 100%;
+    }
+    .option{
+        width: 100%;
+        margin-top: 60px;
+    }
+    .option li{
+        width: 80%;
+        margin: auto 60px;
+    }
+
+    /* Everything you need */
+    #everything{
+        text-align: center;
+    }
+    .container{
+        width: 100%;
+    }
+    .everything-writing-part{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        padding: 50px 0;
+    }
+    .everything-writing-part p{
+        width: 90%;
+        margin: 20px auto;
+        float: none;
+    }
+    .box-part{
+        width: 100%;
+        padding-top: 0px;
+        margin: 0 0 -30px 0px;
+        text-align: center;
+    }
+    .left-box{
+        float: left;
+        height: 260px;
+        width: 140px;
+        margin: 30px -10px 0px 90px;
+    }
+    .mid-box{
+        float: left;
+        height: 310px;
+        width: 140px;
+        margin: -20px -21px 0px -20px;
+    }
+    .right-box{
+        float: left;
+        height: 240px;
+        width: 140px;
+        margin: 50px 0px 0px 0px;
+    }
+
+
+    /* Watch video part */
+    .watch-writing-part{
+        width: 90%;
+        margin: auto;
+        padding: 10px;
+    }
+
+
+    /* Join part */
+    .join{
+        width: 90%;
+        padding: 30px;
+    }
+
+    /* Paragraph Part */
+    .para{
+        width: 100%;
+    }
+    .para p{
+        padding: 60px;
+    }
+
+    /* Available Now Part */
+    .smartphone{
+        width: 100%;
+        text-align: center;
+    }
+    .left-smartphone{
+        height: 400px;
+    }
+    .right-smartphone{
+        height: 300px;
+    }
+    .available-writing-part{
+        width: 100%;
+        text-align: center;
+    }
+    .writing{
+        width: 100%;
+        margin: 10px 0 0 20px;
+    }
+    .available-writing-part button{
+        width: 40%;
+        float: left;
+        margin: 30px 10px;
+        background-color: #e0e0e0;
+    }
+
+
+    /* Listing Part */
+    .list-and-search{
+        width: 100%;
+        margin: auto;
+    }
+    .listing{
+        width: 29%;
+        float: left;
+        margin: 10px;
+    }
+    .search{
+        margin: 0px auto;
+    }
+
+}
