@@ -162,13 +162,14 @@ header{
 .feature-box-part{
     width: 100%;
     float: left;
+    text-align: center;
 }
 .feature-box{
     width: 23%;
     float: left;
     margin: 0 1%;
     border: none;
-    padding: 30px;
+    padding: 30px 15px;
     box-shadow: 0 2px 2px 2px #e2e2e2;
 }
 .feature-box img{
@@ -226,7 +227,7 @@ header{
     padding: 0 0 40px 40px;
 }
 .code{
-    width: 25%;
+    width: 50%;
     float: left;
     text-align: center;
 }
@@ -552,7 +553,15 @@ header{
         margin-left: 20px;
     }
     .menu-part{
-        width: 60%;
+        width: 50%;
+    }
+    .menu-part li{
+        float: none;
+    }
+    .menu-part li a{
+        font-size: 15px;
+        margin: 0;
+        text-align: end;
     }
     .btn-part{
         display: none;
@@ -584,10 +593,10 @@ header{
 
     /* Get More Part */
     .get-more-blank{
-        height: 380px;
+        height: 400px;
     }
     .get-more-writing-part{
-        height: 380px;
+        height: 400px;
         padding: 10px 0px 10px 30px;
     }
     .get-more-writing-part h1{
@@ -603,12 +612,24 @@ header{
         /* margin: auto; */
         padding: 0px 10px;
     }
+    .stable-writing-part p{
+        padding: 10px;
+    }
     .code{
         width: 100%;
     }
+    .code img{
+        height: 250px
+    };
 
     .screen{
         width: 100%;
+        /* float: left; */
+        text-align: center;
+    }
+    .screen img{
+        height: 400px;
+        margin: 0 0 0 50px;
     }
     .option{
         width: 100%;
@@ -616,7 +637,7 @@ header{
     }
     .option li{
         width: 80%;
-        margin: auto 60px;
+        margin: auto 40px;
     }
 
     /* Everything you need */
@@ -647,7 +668,7 @@ header{
         float: left;
         height: 260px;
         width: 140px;
-        margin: 30px -10px 0px 90px;
+        margin: 30px -10px 0px 60px;
     }
     .mid-box{
         float: left;
@@ -702,7 +723,7 @@ header{
     }
     .writing{
         width: 100%;
-        margin: 10px 0 0 20px;
+        margin: 10px 0 0 0px;
     }
     .available-writing-part button{
         width: 40%;
