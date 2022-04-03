@@ -228,9 +228,10 @@ header{
 .code{
     width: 25%;
     float: left;
+    text-align: center;
 }
 .code img{
-    height: 340px;
+    height: 300px;
 }
 
 #screen-part{
